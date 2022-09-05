@@ -118,7 +118,7 @@
             // 
             // slide_panel
             // 
-            this.slide_panel.BackColor = System.Drawing.Color.SeaGreen;
+            this.slide_panel.BackColor = System.Drawing.Color.Tomato;
             this.slide_panel.Location = new System.Drawing.Point(0, 110);
             this.slide_panel.Margin = new System.Windows.Forms.Padding(2);
             this.slide_panel.Name = "slide_panel";
@@ -198,13 +198,13 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel2.BackColor = System.Drawing.Color.Tomato;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(208, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(968, 23);
+            this.panel2.Size = new System.Drawing.Size(968, 19);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -218,7 +218,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.SeaGreen;
+            this.panel4.BackColor = System.Drawing.Color.Tomato;
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.pictureBox1);
             this.panel4.Location = new System.Drawing.Point(208, 11);
@@ -253,11 +253,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F);
-            this.label2.Location = new System.Drawing.Point(405, 36);
+            this.label2.BackColor = System.Drawing.Color.Tomato;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(442, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(422, 36);
+            this.label2.Size = new System.Drawing.Size(464, 38);
             this.label2.TabIndex = 3;
             this.label2.Text = "Inventory Management System";
             // 
@@ -532,6 +533,7 @@
             // 
             // add_manager_panel
             // 
+            this.add_manager_panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.add_manager_panel.Controls.Add(this.typecomboTxt);
             this.add_manager_panel.Controls.Add(this.label14);
             this.add_manager_panel.Controls.Add(this.Mregister_btn);
@@ -548,7 +550,7 @@
             this.add_manager_panel.Controls.Add(this.MfnameTxt);
             this.add_manager_panel.Controls.Add(this.label9);
             this.add_manager_panel.Controls.Add(this.label6);
-            this.add_manager_panel.Location = new System.Drawing.Point(208, 163);
+            this.add_manager_panel.Location = new System.Drawing.Point(208, 159);
             this.add_manager_panel.Margin = new System.Windows.Forms.Padding(2);
             this.add_manager_panel.Name = "add_manager_panel";
             this.add_manager_panel.Size = new System.Drawing.Size(981, 482);
@@ -583,7 +585,7 @@
             // Mregister_btn
             // 
             this.Mregister_btn.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.Mregister_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.Mregister_btn.BackColor = System.Drawing.Color.Tomato;
             this.Mregister_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Mregister_btn.BorderRadius = 7;
             this.Mregister_btn.ButtonText = "Create Account";
@@ -602,19 +604,19 @@
             this.Mregister_btn.IconVisible = true;
             this.Mregister_btn.IconZoom = 90D;
             this.Mregister_btn.IsTab = false;
-            this.Mregister_btn.Location = new System.Drawing.Point(475, 310);
+            this.Mregister_btn.Location = new System.Drawing.Point(574, 315);
             this.Mregister_btn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Mregister_btn.Name = "Mregister_btn";
             this.Mregister_btn.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.Mregister_btn.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.Mregister_btn.OnHoverTextColor = System.Drawing.Color.White;
             this.Mregister_btn.selected = false;
-            this.Mregister_btn.Size = new System.Drawing.Size(299, 58);
+            this.Mregister_btn.Size = new System.Drawing.Size(170, 29);
             this.Mregister_btn.TabIndex = 17;
             this.Mregister_btn.Text = "Create Account";
             this.Mregister_btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.Mregister_btn.Textcolor = System.Drawing.Color.White;
-            this.Mregister_btn.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mregister_btn.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Mregister_btn.Click += new System.EventHandler(this.Mregister_btn_Click);
             // 
             // MrepassTxt
@@ -820,6 +822,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Tomato;
             this.label6.Location = new System.Drawing.Point(403, 17);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
@@ -859,10 +862,10 @@
             this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.ForeColor = System.Drawing.Color.White;
             this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
-            this.logout_btn.Location = new System.Drawing.Point(954, 26);
+            this.logout_btn.Location = new System.Drawing.Point(1006, 23);
             this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
             this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(77, 58);
+            this.logout_btn.Size = new System.Drawing.Size(53, 46);
             this.logout_btn.TabIndex = 65;
             this.logout_btn.UseVisualStyleBackColor = true;
             this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
@@ -874,10 +877,10 @@
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(1028, 26);
+            this.button9.Location = new System.Drawing.Point(1063, 22);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(70, 58);
+            this.button9.Size = new System.Drawing.Size(55, 46);
             this.button9.TabIndex = 64;
             this.button9.UseVisualStyleBackColor = true;
             // 
@@ -888,10 +891,10 @@
             this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close_btn.ForeColor = System.Drawing.Color.White;
             this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(1102, 26);
+            this.close_btn.Location = new System.Drawing.Point(1121, 23);
             this.close_btn.Margin = new System.Windows.Forms.Padding(2);
             this.close_btn.Name = "close_btn";
-            this.close_btn.Size = new System.Drawing.Size(64, 58);
+            this.close_btn.Size = new System.Drawing.Size(57, 46);
             this.close_btn.TabIndex = 63;
             this.close_btn.UseVisualStyleBackColor = true;
             this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
@@ -915,6 +918,7 @@
             this.Name = "Admin_home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Admin_home_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

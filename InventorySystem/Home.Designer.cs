@@ -68,6 +68,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -98,7 +99,7 @@
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(110)))), ((int)(((byte)(92)))));
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Tomato;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(54, 251);
             this.dataGridView1.Name = "dataGridView1";
@@ -111,7 +112,7 @@
             // bunifuFlatButton1
             // 
             this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(136)))), ((int)(((byte)(234)))));
             this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton1.BorderRadius = 0;
             this.bunifuFlatButton1.ButtonText = "Find";
@@ -131,14 +132,14 @@
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 90D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(388, 42);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(398, 46);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
             this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
             this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(125, 28);
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(171, 29);
             this.bunifuFlatButton1.TabIndex = 26;
             this.bunifuFlatButton1.Text = "Find";
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,11 +211,11 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(136)))), ((int)(((byte)(234)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(604, 21);
+            this.button1.Location = new System.Drawing.Point(593, 46);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(298, 50);
+            this.button1.Size = new System.Drawing.Size(171, 29);
             this.button1.TabIndex = 29;
             this.button1.Text = "View My Orders";
             this.button1.UseVisualStyleBackColor = false;
@@ -310,11 +311,11 @@
             // 
             this.button2.BackColor = System.Drawing.Color.ForestGreen;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(657, 568);
+            this.button2.Location = new System.Drawing.Point(876, 518);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(344, 50);
+            this.button2.Size = new System.Drawing.Size(146, 34);
             this.button2.TabIndex = 29;
             this.button2.Text = "Continue (Checkout)";
             this.button2.UseVisualStyleBackColor = false;
@@ -324,11 +325,11 @@
             // 
             this.button4.BackColor = System.Drawing.Color.DimGray;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(657, 516);
+            this.button4.Location = new System.Drawing.Point(742, 517);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(344, 50);
+            this.button4.Size = new System.Drawing.Size(121, 34);
             this.button4.TabIndex = 29;
             this.button4.Text = "Add To Cart";
             this.button4.UseVisualStyleBackColor = false;
@@ -349,17 +350,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bowlby One SC", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Tomato;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(93, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(761, 64);
+            this.label1.Size = new System.Drawing.Size(589, 47);
             this.label1.TabIndex = 33;
             this.label1.Text = "Inventory Management System";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(110)))), ((int)(((byte)(92)))));
+            this.panel1.BackColor = System.Drawing.Color.Tomato;
             this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.comboBox2);
@@ -377,7 +379,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Firebrick;
-            this.label9.Location = new System.Drawing.Point(98, 95);
+            this.label9.Location = new System.Drawing.Point(103, 106);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(48, 17);
             this.label9.TabIndex = 35;
@@ -388,7 +390,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(56, 95);
+            this.label12.Location = new System.Drawing.Point(61, 106);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(44, 17);
             this.label12.TabIndex = 36;
@@ -396,46 +398,49 @@
             // 
             // logout_btn
             // 
+            this.logout_btn.BackColor = System.Drawing.Color.Tomato;
             this.logout_btn.FlatAppearance.BorderSize = 0;
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.ForeColor = System.Drawing.Color.White;
             this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
-            this.logout_btn.Location = new System.Drawing.Point(848, 31);
+            this.logout_btn.Location = new System.Drawing.Point(884, 2);
             this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
             this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(64, 58);
+            this.logout_btn.Size = new System.Drawing.Size(57, 48);
             this.logout_btn.TabIndex = 63;
-            this.logout_btn.UseVisualStyleBackColor = true;
+            this.logout_btn.UseVisualStyleBackColor = false;
             this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.Tomato;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(921, 31);
+            this.button9.Location = new System.Drawing.Point(945, 2);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(64, 58);
+            this.button9.Size = new System.Drawing.Size(55, 48);
             this.button9.TabIndex = 64;
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // close_btn
             // 
+            this.close_btn.BackColor = System.Drawing.Color.Tomato;
             this.close_btn.FlatAppearance.BorderSize = 0;
             this.close_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close_btn.ForeColor = System.Drawing.Color.White;
             this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(994, 31);
+            this.close_btn.Location = new System.Drawing.Point(1001, 2);
             this.close_btn.Margin = new System.Windows.Forms.Padding(2);
             this.close_btn.Name = "close_btn";
-            this.close_btn.Size = new System.Drawing.Size(64, 58);
+            this.close_btn.Size = new System.Drawing.Size(53, 48);
             this.close_btn.TabIndex = 65;
-            this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.UseVisualStyleBackColor = false;
             this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // bunifuElipse2
@@ -470,13 +475,17 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(110)))), ((int)(((byte)(92)))));
+            this.panel2.BackColor = System.Drawing.Color.Tomato;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.close_btn);
+            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.logout_btn);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1058, 26);
+            this.panel2.Size = new System.Drawing.Size(1058, 93);
             this.panel2.TabIndex = 66;
             // 
             // Home
@@ -484,10 +493,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1058, 640);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.close_btn);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.logout_btn);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.panel1);
@@ -509,6 +514,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Home";
@@ -518,6 +524,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

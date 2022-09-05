@@ -134,12 +134,12 @@
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
             this.bunifuTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.additem_panel.SuspendLayout();
@@ -160,12 +160,13 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("Bowlby One SC", 28F);
-            this.label1.Location = new System.Drawing.Point(407, 21);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(141, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(542, 59);
+            this.label1.Size = new System.Drawing.Size(504, 39);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Inventory Management";
+            this.label1.Text = "Inventory Management System";
             // 
             // panel1
             // 
@@ -298,24 +299,30 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.BackColor = System.Drawing.Color.Tomato;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.logout_btn);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.close_btn);
+            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.label1);
             this.bunifuTransition2.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(206, 0);
+            this.panel2.Location = new System.Drawing.Point(205, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(967, 17);
+            this.panel2.Size = new System.Drawing.Size(967, 163);
             this.panel2.TabIndex = 50;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Teal;
+            this.panel3.BackColor = System.Drawing.Color.Tomato;
             this.panel3.Controls.Add(this.manager_name);
             this.panel3.Controls.Add(this.pictureBox1);
             this.bunifuTransition2.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Location = new System.Drawing.Point(278, 2);
+            this.panel3.Location = new System.Drawing.Point(1, 3);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(122, 154);
@@ -341,7 +348,7 @@
             this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(9, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 5);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(106, 110);
@@ -351,6 +358,7 @@
             // 
             // button9
             // 
+            this.button9.BackColor = System.Drawing.Color.Tomato;
             this.bunifuTransition1.SetDecoration(this.button9, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.button9, BunifuAnimatorNS.DecorationType.None);
             this.button9.FlatAppearance.BorderSize = 0;
@@ -358,15 +366,16 @@
             this.button9.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            this.button9.Location = new System.Drawing.Point(1024, 22);
+            this.button9.Location = new System.Drawing.Point(855, 2);
             this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(70, 58);
+            this.button9.Size = new System.Drawing.Size(52, 53);
             this.button9.TabIndex = 59;
-            this.button9.UseVisualStyleBackColor = true;
+            this.button9.UseVisualStyleBackColor = false;
             // 
             // close_btn
             // 
+            this.close_btn.BackColor = System.Drawing.Color.Tomato;
             this.bunifuTransition1.SetDecoration(this.close_btn, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.close_btn, BunifuAnimatorNS.DecorationType.None);
             this.close_btn.FlatAppearance.BorderSize = 0;
@@ -374,12 +383,12 @@
             this.close_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.close_btn.ForeColor = System.Drawing.Color.White;
             this.close_btn.Image = ((System.Drawing.Image)(resources.GetObject("close_btn.Image")));
-            this.close_btn.Location = new System.Drawing.Point(1099, 22);
+            this.close_btn.Location = new System.Drawing.Point(911, 4);
             this.close_btn.Margin = new System.Windows.Forms.Padding(2);
             this.close_btn.Name = "close_btn";
-            this.close_btn.Size = new System.Drawing.Size(64, 58);
+            this.close_btn.Size = new System.Drawing.Size(54, 53);
             this.close_btn.TabIndex = 58;
-            this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.UseVisualStyleBackColor = false;
             this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // additem_panel
@@ -849,6 +858,7 @@
             // 
             // logout_btn
             // 
+            this.logout_btn.BackColor = System.Drawing.Color.Tomato;
             this.bunifuTransition1.SetDecoration(this.logout_btn, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.logout_btn, BunifuAnimatorNS.DecorationType.None);
             this.logout_btn.FlatAppearance.BorderSize = 0;
@@ -856,12 +866,12 @@
             this.logout_btn.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_btn.ForeColor = System.Drawing.Color.White;
             this.logout_btn.Image = ((System.Drawing.Image)(resources.GetObject("logout_btn.Image")));
-            this.logout_btn.Location = new System.Drawing.Point(943, 22);
+            this.logout_btn.Location = new System.Drawing.Point(797, 2);
             this.logout_btn.Margin = new System.Windows.Forms.Padding(2);
             this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(77, 58);
+            this.logout_btn.Size = new System.Drawing.Size(54, 53);
             this.logout_btn.TabIndex = 62;
-            this.logout_btn.UseVisualStyleBackColor = true;
+            this.logout_btn.UseVisualStyleBackColor = false;
             this.logout_btn.Click += new System.EventHandler(this.logout_btn_Click);
             // 
             // bunifuTransition1
@@ -1139,11 +1149,11 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.bunifuTransition1.SetDecoration(this.button3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition2.SetDecoration(this.button3, BunifuAnimatorNS.DecorationType.None);
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(52, 409);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(205, 276);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(212, 55);
+            this.button3.Size = new System.Drawing.Size(128, 39);
             this.button3.TabIndex = 102;
             this.button3.Text = "Generate Paid Order-List PDF";
             this.button3.UseVisualStyleBackColor = false;
@@ -1157,14 +1167,13 @@
             this.cancel_order_btn.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.cancel_order_btn.FlatAppearance.BorderSize = 2;
             this.cancel_order_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancel_order_btn.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cancel_order_btn.Image = ((System.Drawing.Image)(resources.GetObject("cancel_order_btn.Image")));
+            this.cancel_order_btn.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancel_order_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cancel_order_btn.Location = new System.Drawing.Point(52, 336);
+            this.cancel_order_btn.Location = new System.Drawing.Point(121, 276);
             this.cancel_order_btn.Margin = new System.Windows.Forms.Padding(2);
             this.cancel_order_btn.Name = "cancel_order_btn";
             this.cancel_order_btn.Padding = new System.Windows.Forms.Padding(4);
-            this.cancel_order_btn.Size = new System.Drawing.Size(212, 71);
+            this.cancel_order_btn.Size = new System.Drawing.Size(80, 39);
             this.cancel_order_btn.TabIndex = 100;
             this.cancel_order_btn.Text = "Cancel Order";
             this.cancel_order_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -1192,14 +1201,13 @@
             this.make_unPaid_btn.FlatAppearance.BorderColor = System.Drawing.Color.Green;
             this.make_unPaid_btn.FlatAppearance.BorderSize = 2;
             this.make_unPaid_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.make_unPaid_btn.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.make_unPaid_btn.Image = ((System.Drawing.Image)(resources.GetObject("make_unPaid_btn.Image")));
+            this.make_unPaid_btn.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.make_unPaid_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.make_unPaid_btn.Location = new System.Drawing.Point(52, 260);
+            this.make_unPaid_btn.Location = new System.Drawing.Point(148, 331);
             this.make_unPaid_btn.Margin = new System.Windows.Forms.Padding(2);
             this.make_unPaid_btn.Name = "make_unPaid_btn";
             this.make_unPaid_btn.Padding = new System.Windows.Forms.Padding(4);
-            this.make_unPaid_btn.Size = new System.Drawing.Size(212, 72);
+            this.make_unPaid_btn.Size = new System.Drawing.Size(136, 40);
             this.make_unPaid_btn.TabIndex = 98;
             this.make_unPaid_btn.Text = "Make as Unpaid";
             this.make_unPaid_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -1209,11 +1217,11 @@
             // paid_dataGridView1
             // 
             this.paid_dataGridView1.AllowUserToAddRows = false;
-            this.paid_dataGridView1.BackgroundColor = System.Drawing.Color.Teal;
+            this.paid_dataGridView1.BackgroundColor = System.Drawing.Color.Tomato;
             this.paid_dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuTransition2.SetDecoration(this.paid_dataGridView1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuTransition1.SetDecoration(this.paid_dataGridView1, BunifuAnimatorNS.DecorationType.None);
-            this.paid_dataGridView1.Location = new System.Drawing.Point(324, 27);
+            this.paid_dataGridView1.Location = new System.Drawing.Point(345, 23);
             this.paid_dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.paid_dataGridView1.Name = "paid_dataGridView1";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -1579,19 +1587,6 @@
             this.label33.TabIndex = 76;
             this.label33.Text = "Details";
             // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuTransition2.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.label34.Font = new System.Drawing.Font("Bowlby One SC", 28F);
-            this.label34.Location = new System.Drawing.Point(601, 68);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(183, 59);
-            this.label34.TabIndex = 66;
-            this.label34.Text = "System";
-            // 
             // bunifuTransition2
             // 
             this.bunifuTransition2.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
@@ -1635,21 +1630,15 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1173, 640);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.logout_btn);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.close_btn);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.paid_orders_panel);
             this.Controls.Add(this.additem_panel);
             this.Controls.Add(this.updateitems_panel);
             this.Controls.Add(this.deleteitem_panel);
             this.Controls.Add(this.unp_order_panel);
-            this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
+            this.Controls.Add(this.panel2);
             this.bunifuTransition2.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Manager_home";
@@ -1657,6 +1646,8 @@
             this.Text = " ";
             this.Load += new System.EventHandler(this.Manager_home_Load);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -1676,7 +1667,6 @@
             this.unp_order_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.unp_dataGridView)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1783,6 +1773,5 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label34;
     }
 }

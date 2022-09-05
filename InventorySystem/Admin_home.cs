@@ -185,5 +185,10 @@ namespace InventorySystemCsharp
         {
 
         }
+
+        private void Admin_home_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
